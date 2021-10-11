@@ -33,8 +33,6 @@ body {
    ========================================================================== */
 
 .current,
-.order-service-button:hover,
-.order-service-button:focus,
 .footer-address-link:hover,
 .footer-address-link:focus,
 .contacts-link:hover,
@@ -114,7 +112,10 @@ body {
     cursor: pointer;
     background-color: var(--links-hover-color);
 }
-
+.order-service-button:hover,
+.order-service-button:focus {
+    background-color: var(--button-hover-color);
+}
 /* features
    ========================================================================== */
 
